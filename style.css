@@ -28,3 +28,9 @@
 .events-page{max-width:1040px}.events-intro{color:var(--muted);max-width:720px;margin-bottom:35px}.events-page>h2{margin-top:34px}.event-card{padding:27px 30px;border:1px solid #dce5f0;border-radius:5px;margin-bottom:28px;background:#f5f8fc}.event-upcoming{background:linear-gradient(110deg,#edf0ff,#eaf7f9);border-left:4px solid #829bd0}.event-card .eyebrow{font-size:11px;letter-spacing:1px;color:#5b6e9d}.event-card h3{font-family:Georgia,serif;font-size:29px;font-weight:400;color:#445f91;margin:12px 0}.event-full-name{font-size:17px;color:#52668a}.event-card p{max-width:850px}.event-announcement{border-top:1px solid var(--line);padding:24px 0;margin-bottom:25px}.event-announcement>span{font-size:10px;letter-spacing:1.5px;color:var(--muted)}.event-announcement p{margin:8px 0 0;font-size:15px}@media(max-width:620px){.event-card{padding:22px}.event-card h3{font-size:25px}}
 
 .navigation-bar nav.wrap{width:min(1120px,calc(100% - 40px))}
+
+/* Keep every navigation entry on a single row at every screen size. */
+.navigation-bar nav.wrap{width:min(1200px,calc(100% - 32px));display:flex;flex-wrap:nowrap;justify-content:flex-start;align-items:center;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#b7c8e0 transparent;gap:0}
+.navigation-bar nav.wrap>a{flex:0 0 auto;white-space:nowrap;padding:15px 10px;font-size:11px;letter-spacing:.65px}
+.navigation-bar nav.wrap>a.monogram{font-size:29px;letter-spacing:-2px;padding:9px 20px 9px 0;margin-right:auto}
+@media(max-width:680px){.navigation-bar nav.wrap{width:calc(100% - 24px)}.navigation-bar nav.wrap>a{padding:13px 10px}.navigation-bar nav.wrap>a.monogram{font-size:25px;padding-right:16px;margin-right:8px}}
