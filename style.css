@@ -36,3 +36,9 @@
 @media(max-width:680px){.navigation-bar nav.wrap{width:calc(100% - 24px)}.navigation-bar nav.wrap>a{padding:13px 10px}.navigation-bar nav.wrap>a.monogram{font-size:25px;padding-right:16px;margin-right:8px}}
 
 .event-flyer{width:min(100%,420px);margin:20px 0}.event-flyer img{display:block;width:100%;height:auto;border:1px solid #d5deeb;border-radius:3px;background:#fff}
+
+/* Homepage portrait; original pencil sketch remains in assets/portrait.jpeg. */
+.hero{grid-template-columns:1fr 275px;gap:58px}
+.hero .profile-photo{width:275px;height:320px;object-fit:cover;object-position:43% center;border-radius:10px}
+@media(max-width:680px){.hero{grid-template-columns:1fr 150px;gap:24px}.hero .profile-photo{width:150px;height:185px}}
+@media(max-width:420px){.hero{grid-template-columns:1fr}.hero .profile-photo{width:190px;height:225px}}

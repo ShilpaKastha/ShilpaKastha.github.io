@@ -27,3 +27,7 @@ The site uses system fonts and needs no external font services. There are no ana
 ## Preview locally
 
 Run `python3 -m http.server 8000` from this folder, then open http://localhost:8000.
+
+## Portrait options
+
+The website currently uses `assets/selfie.png`. The original pencil sketch is preserved at `assets/portrait.jpeg`. To switch back, replace `assets/selfie.png` with `assets/portrait.jpeg` in `index.html` and `group.html`.
